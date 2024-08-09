@@ -1,0 +1,11 @@
+#node modules for both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+#Environmental variables
+frontend/.env
+backend/.env
+
+#OS specific rules 
+.DS_Store
+Thumbs.db
