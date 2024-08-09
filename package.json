@@ -1,0 +1,9 @@
+{
+  "name": "e-commerce-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "start:frontend": "npm --prefix frontend start",
+    "start:backend": "npm --prefix backend start",
+    "start": "npm run start:frontend & npm run start:backend"
+  }
+}
